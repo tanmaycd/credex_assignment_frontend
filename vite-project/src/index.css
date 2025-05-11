@@ -7,7 +7,7 @@ button.dark-mode-toggle {
   right: 1rem;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 9999px;
+  border-radius: 9999px;console.log("Dark mode toggle button styles loaded");
   background-color: #000000;
   color: #ffffff;
   font-size: 1rem;
