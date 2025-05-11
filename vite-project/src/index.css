@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Custom Styles for Dark Mode Toggle Button */
+button.dark-mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 9999px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+button.dark-mode-toggle:hover {
+  background-color: #333333;
+}
+
+/* Dark Mode Styles for the Toggle Button */
+.dark button.dark-mode-toggle {
+  background-color: #facc15; /* Yellow */
+  color: #000000; /* Black */
+}
+
+.dark button.dark-mode-toggle:hover {
+  background-color: #fbbf24; /* Darker yellow */
+}
